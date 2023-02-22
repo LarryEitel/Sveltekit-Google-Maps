@@ -3,7 +3,7 @@
 Smooth and Intuitive Map Integration for SvelteKit Applications.
 
 ## Background
-I have experience developing map-related applications in C, C++, AngularJS, ReactJS, and VueJS. After exploring different technologies in the map development space, I am now eager to create a new open-source project based on Google Maps API using the exciting and modern SvelteKit framework. I am confident that this project will provide insights and solutions for map-related applications based on SvelteKit.
+I have experience developing map-related applications in C, C++, AngularJS, ReactJS, and VueJS. After exploring different technologies in the map development space, I am now eager to create a new open-source project based on Google Maps API using the exciting and modern SvelteKit framework. I am confident that this project will provide insights and solutions for Google Map-related applications based on SvelteKit.
 
 The ultimate goal of the project is to provide a comprehensive solution for developers looking to use Google Maps in their own SvelteKit projects. I hope to create a library of components and functions that can be used to quickly and easily incorporate Google Maps into any SvelteKit project.
 
