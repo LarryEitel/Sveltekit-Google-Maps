@@ -1,6 +1,7 @@
 {
 	"name": "sveltekit-google-maps",
 	"version": "0.0.1",
+	"description": "Mission: Explore Best Practices running Google Maps with SvelteKit.",
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",

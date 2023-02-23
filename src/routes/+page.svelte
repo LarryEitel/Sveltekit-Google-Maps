@@ -1,8 +1,12 @@
 <script lang="ts">
-	import GoogleMap from '$lib/GoogleMap.svelte';
+	import type { PageData } from './$types';
+
+	export let data: PageData;
 </script>
 
 <h1>SvelteKit Google Maps</h1>
-<p>Smooth and Intuitive Map Integration for SvelteKit Applications.</p>
+<h4>Mission: Explore best practices running Google Maps with SvelteKit.</h4>
 
-<GoogleMap />
+<a href="/map">
+	<button> Map </button>
+</a>
