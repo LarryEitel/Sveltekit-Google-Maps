@@ -37,6 +37,7 @@ Note: This WIP project is for educational purposes. Please feel free to particip
 ## Inspiration
 - [uwent/ag-vdifn: Provides a front-end map-based interface for browsing vegetable disease and insect pest pressure models computed by the ag-weather backend service.](https://github.com/uwent/ag-vdifn)
 - [beyonk-adventures/svelte-googlemaps: Svelte Google Maps Components](https://github.com/beyonk-adventures/svelte-googlemaps)
+- [CodingGarden/listd](https://github.com/CodingGarden/listd)
 - [t108368527/Svelte\_Map: Use Google Map In SvelteKit](https://github.com/t108368527/Svelte_Map)
 
 
@@ -45,3 +46,15 @@ The following are a list of projects that make good use of Google Maps. This wil
 - [GeoBingo.io: a multiplayer street view bingo game](https://github.com/s0er3n/GeoBingo.io)
 - [uwent/ag-vdifn: Provides a front-end map-based interface for browsing vegetable disease and insect pest pressure models computed by the ag-weather backend service.](https://github.com/uwent/ag-vdifn)
 - [NotWoods/big-island-buses: A far easier to use unofficial schedule for the Hawaii Hele-On Bus. Created for the House Student App Challenege.](https://github.com/NotWoods/big-island-buses)
+
+## Installation Notes
+- Tailwind.css
+```
+npx svelte-add@latest tailwindcss
+pnpm add -D @tailwindcss/forms
+```
+
+- [Skeleton](https://www.skeleton.dev/)
+```
+pnpm add -D @skeletonlabs/skeleton
+```

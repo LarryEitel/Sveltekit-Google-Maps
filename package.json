@@ -11,31 +11,68 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"test:unit": "vitest",
-		"lint": "prettier --plugin-search-dir . --check . && eslint .",
-		"format": "prettier --plugin-search-dir . --write ."
+		"lint": "eslint --ext .js,.cjs,.ts,.svelte .",
+		"typecheck": "tsc --noEmit",
+		"format": "prettier --plugin-search-dir . --check .",
+		"lint:fix": "eslint --ext .js,.cjs,.ts,.svelte . --fix",
+		"format:fix": "prettier --plugin-search-dir . --write ."
 	},
 	"devDependencies": {
 		"@googlemaps/js-api-loader": "^1.15.1",
 		"@playwright/test": "^1.28.1",
+		"@skeletonlabs/skeleton": "^0.132.5",
 		"@sveltejs/adapter-auto": "^2.0.0",
-		"@sveltejs/kit": "^1.5.0",
+		"@sveltejs/kit": "^1.8.3",
+		"@tabler/icons-svelte": "^2.5.0",
+		"@tailwindcss/forms": "^0.5.3",
 		"@typescript-eslint/eslint-plugin": "^5.45.0",
 		"@typescript-eslint/parser": "^5.45.0",
-		"eslint": "^8.28.0",
+		"autoprefixer": "^10.4.13",
+		"concurrently": "^7.6.0",
+		"eslint": "^8.34.0",
+		"eslint-config-airbnb-base": "^15.0.0",
+		"eslint-config-airbnb-typescript": "^17.0.0",
 		"eslint-config-prettier": "^8.5.0",
-		"eslint-plugin-svelte3": "^4.0.0",
-		"prettier": "^2.8.0",
-		"prettier-plugin-svelte": "^2.8.1",
-		"svelte": "^3.54.0",
-		"svelte-check": "^3.0.1",
-		"tslib": "^2.4.1",
-		"typescript": "^4.9.3",
-		"vite": "^4.0.0",
-		"vitest": "^0.25.3"
+		"eslint-import-resolver-typescript": "^3.5.3",
+		"eslint-plugin-import": "^2.27.5",
+		"eslint-plugin-import-no-duplicates-prefix-resolved-path": "^2.0.0",
+		"eslint-plugin-prettier": "^4.2.1",
+		"eslint-plugin-svelte": "^2.19.1",
+		"husky": "^8.0.3",
+		"postcss": "^8.4.21",
+		"postcss-load-config": "^4.0.1",
+		"prettier": "^2.8.4",
+		"prettier-plugin-svelte": "^2.9.0",
+		"prettier-plugin-tailwindcss": "^0.2.3",
+		"svelte": "^3.55.1",
+		"svelte-check": "^3.0.3",
+		"svelte-preprocess": "^4.10.7",
+		"tailwindcss": "^3.2.7",
+		"tslib": "^2.5.0",
+		"typescript": "^4.9.5",
+		"vite": "^4.1.4",
+		"vitest": "^0.25.8"
 	},
 	"type": "module",
 	"dependencies": {
 		"@googlemaps/google-maps-services-js": "^3.3.27",
 		"@types/google-maps": "^3.2.3"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/LarryEitel/Sveltekit-Google-Maps/issues"
+	},
+	"keywords": [
+		"Sveltekit-Google-Maps",
+		"svelte",
+		"typescript",
+		"tailwindcss",
+		"skeleton"
+
+	],
+	"author": "Larry Eitel ('https://github.com/LarryEitel')",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/LarryEitel/Sveltekit-Google-Maps"
 	}
 }
