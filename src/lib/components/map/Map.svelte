@@ -1,7 +1,8 @@
 <script lang="ts">
+	import { PUBLIC_GOOGLE_MAPS_KEY } from '$env/static/public';
 	import { Loader } from '@googlemaps/js-api-loader';
 	import { onMount, setContext } from 'svelte';
-	import { mapKey, mapsApiKey } from '../../store/store';
+	import { mapKey } from '../../../store/store';
 	import mapOptions from './ts/mapOptions';
 	import GoogleWrapper from './ts/googleWrapper';
 	import './map.css';
@@ -13,7 +14,7 @@
 	let googleInstance: GoogleWrapper;
 
 	const loader = new Loader({
-		apiKey: mapsApiKey
+		apiKey: PUBLIC_GOOGLE_MAPS_KEY
 	});
 
 	setContext(mapKey, {
