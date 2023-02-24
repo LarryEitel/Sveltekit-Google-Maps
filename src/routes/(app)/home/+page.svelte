@@ -1,12 +1,16 @@
 <script lang="ts">
 </script>
 
-<h1>SvelteKit Google Maps</h1>
+<h1 class="mt-8">SvelteKit Google Maps</h1>
 
 <div class="hero-container flex flex-col items-center justify-center p-4">
-	<p class="my-4 text-center">
-		Mission: Explore best practices running Google Maps with SvelteKit.
-	</p>
+	<h4 class="my-4 text-center">
+		Exploring best-practice implementions of Google Maps within SvelteKit projects.
+	</h4>
+	<p>Bring your own Google Maps API key!</p>
+	<div class="m-8">
+		<p><strong>Work in progress!</strong></p>
+	</div>
 	<a href="/maps/basic">
 		<button class="btn variant-filled-primary cursor-pointer">Map</button>
 	</a>
